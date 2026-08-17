@@ -12,8 +12,9 @@ PRODUCT_PACKAGES += \
     FontGoogleSans
 
 # Overlays
-PRODUCT_PACKAGES += \
-	WallpaperDefaultOverlay
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/edithui/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/edithui/overlay/common/
 
 # Lockscreen Clock Styles
 PRODUCT_PACKAGES += \
