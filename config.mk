@@ -25,7 +25,8 @@ PRODUCT_PACKAGES += \
      SystemUIClocks-Metro \
      SystemUIClocks-NumOverlap \
      SystemUIClocks-Weather \
-     SystemUIClocks-EdithClockFraunces
+     SystemUIClocks-EdithClockFraunces \
+     SystemUIClocks-EdithClockLiterata
 
 # Theme
 PRODUCT_PACKAGES += \

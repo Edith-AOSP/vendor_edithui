@@ -28,6 +28,7 @@
         <item>com.android.systemui.clocks.numoverlap</item>
         <item>com.android.systemui.clocks.handwritten</item>
         <item>com.android.systemui.clocks.edithclockfraunces</item>
+        <item>com.android.systemui.clocks.edithclockliterata</item>
     </string-array>
 
     <!-- Enable lockscreen shortcuts customization -->
