@@ -428,6 +428,11 @@
         <font>GoogleSansClock-Regular.ttf</font>
     </family>
 
+    <!-- Fraunces (variable serif) for custom clock styles -->
+    <family customizationType="new-named-family" name="fraunces-clock">
+        <font>Fraunces-Variable.ttf</font>
+    </family>
+
     <family-list customizationType="new-named-family" name="google-sans-flex-clock">
         <family>
             <font>GoogleSansFlexClock-Regular.ttf</font>

@@ -27,6 +27,7 @@
         <item>com.android.systemui.clocks.metro</item>
         <item>com.android.systemui.clocks.numoverlap</item>
         <item>com.android.systemui.clocks.handwritten</item>
+        <item>com.android.systemui.clocks.edithclockfraunces</item>
     </string-array>
 
     <!-- Enable lockscreen shortcuts customization -->
