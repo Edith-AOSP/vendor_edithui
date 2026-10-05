@@ -9,7 +9,8 @@ PRODUCT_COPY_FILES += \
     vendor/edithui/etc/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
 PRODUCT_PACKAGES += \
-    FontGoogleSans
+    FontGoogleSans \
+    FontInter
 
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/edithui/overlay

@@ -428,6 +428,55 @@
         <font>GoogleSansClock-Regular.ttf</font>
     </family>
 
+    <!-- Inter (variable) for the font picker -->
+    <family customizationType="new-named-family" name="inter">
+        <font weight="100" style="normal">InterVariable.ttf
+            <axis stylevalue="100" tag="wght"/>
+        </font>
+        <font weight="200" style="normal">InterVariable.ttf
+            <axis stylevalue="200" tag="wght"/>
+        </font>
+        <font weight="300" style="normal">InterVariable.ttf
+            <axis stylevalue="300" tag="wght"/>
+        </font>
+        <font weight="400" style="normal">InterVariable.ttf
+            <axis stylevalue="400" tag="wght"/>
+        </font>
+        <font weight="500" style="normal">InterVariable.ttf
+            <axis stylevalue="500" tag="wght"/>
+        </font>
+        <font weight="600" style="normal">InterVariable.ttf
+            <axis stylevalue="600" tag="wght"/>
+        </font>
+        <font weight="700" style="normal">InterVariable.ttf
+            <axis stylevalue="700" tag="wght"/>
+        </font>
+        <font weight="800" style="normal">InterVariable.ttf
+            <axis stylevalue="800" tag="wght"/>
+        </font>
+        <font weight="900" style="normal">InterVariable.ttf
+            <axis stylevalue="900" tag="wght"/>
+        </font>
+        <font weight="400" style="italic">InterVariable-Italic.ttf
+            <axis stylevalue="400" tag="wght"/>
+        </font>
+        <font weight="500" style="italic">InterVariable-Italic.ttf
+            <axis stylevalue="500" tag="wght"/>
+        </font>
+        <font weight="600" style="italic">InterVariable-Italic.ttf
+            <axis stylevalue="600" tag="wght"/>
+        </font>
+        <font weight="700" style="italic">InterVariable-Italic.ttf
+            <axis stylevalue="700" tag="wght"/>
+        </font>
+    </family>
+
+    <family customizationType="new-named-family" name="inter-medium">
+        <font weight="500" style="normal">InterVariable.ttf
+            <axis stylevalue="500" tag="wght"/>
+        </font>
+    </family>
+
     <!-- Fraunces (variable serif) for custom clock styles -->
     <family customizationType="new-named-family" name="fraunces-clock">
         <font>Fraunces-Variable.ttf</font>
