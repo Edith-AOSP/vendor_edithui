@@ -477,6 +477,72 @@
         </font>
     </family>
 
+    <!-- One Sans (variable, Latin) for the font picker -->
+    <family customizationType="new-named-family" name="one-sans">
+        <font weight="100" style="normal">OPSans-En-Regular.ttf
+            <axis stylevalue="100" tag="wght"/>
+        </font>
+        <font weight="200" style="normal">OPSans-En-Regular.ttf
+            <axis stylevalue="200" tag="wght"/>
+        </font>
+        <font weight="300" style="normal">OPSans-En-Regular.ttf
+            <axis stylevalue="300" tag="wght"/>
+        </font>
+        <font weight="400" style="normal">OPSans-En-Regular.ttf
+            <axis stylevalue="400" tag="wght"/>
+        </font>
+        <font weight="500" style="normal">OPSans-En-Regular.ttf
+            <axis stylevalue="500" tag="wght"/>
+        </font>
+        <font weight="600" style="normal">OPSans-En-Regular.ttf
+            <axis stylevalue="600" tag="wght"/>
+        </font>
+        <font weight="700" style="normal">OPSans-En-Regular.ttf
+            <axis stylevalue="700" tag="wght"/>
+        </font>
+    </family>
+
+    <family customizationType="new-named-family" name="one-sans-medium">
+        <font weight="500" style="normal">OPSans-En-Regular.ttf
+            <axis stylevalue="500" tag="wght"/>
+        </font>
+    </family>
+
+    <!-- OPPO Sans (variable; Latin + zh-Hans + zh-Hant) for the font picker -->
+    <family-list customizationType="new-named-family" name="oppo-sans">
+        <family>
+            <font weight="100" style="normal">SysSans-En-Regular.ttf
+                <axis stylevalue="100" tag="wght"/>
+            </font>
+            <font weight="200" style="normal">SysSans-En-Regular.ttf
+                <axis stylevalue="200" tag="wght"/>
+            </font>
+            <font weight="300" style="normal">SysSans-En-Regular.ttf
+                <axis stylevalue="300" tag="wght"/>
+            </font>
+            <font weight="400" style="normal">SysSans-En-Regular.ttf
+                <axis stylevalue="400" tag="wght"/>
+            </font>
+            <font weight="500" style="normal">SysSans-En-Regular.ttf
+                <axis stylevalue="500" tag="wght"/>
+            </font>
+            <font weight="600" style="normal">SysSans-En-Regular.ttf
+                <axis stylevalue="600" tag="wght"/>
+            </font>
+            <font weight="700" style="normal">SysSans-En-Regular.ttf
+                <axis stylevalue="700" tag="wght"/>
+            </font>
+        </family>
+    </family-list>
+
+    <family-list customizationType="new-named-family" name="oppo-sans-medium">
+        <family>
+            <font weight="500" style="normal">SysSans-En-Regular.ttf
+                <axis stylevalue="500" tag="wght"/>
+            </font>
+        </family>
+    </family-list>
+
     <!-- Fraunces (variable serif) for custom clock styles -->
     <family customizationType="new-named-family" name="fraunces-clock">
         <font>Fraunces-Variable.ttf</font>

@@ -10,7 +10,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     FontGoogleSans \
-    FontInter
+    FontInter \
+    FontOneSans \
+    FontOppoSans
 
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/edithui/overlay
