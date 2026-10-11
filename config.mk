@@ -12,7 +12,8 @@ PRODUCT_PACKAGES += \
     FontGoogleSans \
     FontInter \
     FontOneSans \
-    FontOppoSans
+    FontOppoSans \
+    FontOneUISans
 
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/edithui/overlay
