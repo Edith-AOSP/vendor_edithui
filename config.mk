@@ -36,6 +36,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     EdithBlackTheme
 
+# Recovery UI assets (Google Sans Flex atlases, the mark, the back chevron) and,
+# for the densities we render, the status text images. TARGET_PRIVATE_RES_DIRS
+# takes a single directory here: the platform recipe joins multiple entries into
+# a command that is not valid shell.
+EDITH_RECOVERY_DPI := $(or $(filter mdpi hdpi xhdpi xxhdpi xxxhdpi,$(PRODUCT_AAPT_PREF_CONFIG)),xxhdpi)
+TARGET_PRIVATE_RES_DIRS := vendor/edithui/recovery/$(EDITH_RECOVERY_DPI)/res
+
 # Power off charing resource
 PRODUCT_PACKAGES += \
     pixel_charger_animation \
