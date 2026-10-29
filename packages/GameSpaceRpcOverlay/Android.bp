@@ -1,0 +1,7 @@
+runtime_resource_overlay {
+    name: "GameSpaceRpcOverlay",
+    product_specific: true,
+    certificate: "platform",
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+}

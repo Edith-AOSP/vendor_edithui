@@ -33,6 +33,10 @@ PRODUCT_PACKAGES += \
      SystemUIClocks-EdithClockLiterata
 
 # Theme
+# GameSpace Discord Rich Presence configuration
+PRODUCT_PACKAGES += \
+    GameSpaceRpcOverlay
+
 PRODUCT_PACKAGES += \
     EdithBlackTheme
 
